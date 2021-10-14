@@ -1,0 +1,48 @@
+@import"../../config.scss";
+
+.topBar {
+    position: fixed;
+    width: 100vw;
+    min-height:70px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    @media (prefers-color-scheme: light) {
+        background-color: $lightModeColor;
+        color: $lightModeTextColor
+    }
+
+    @media (prefers-color-scheme: dark) {
+        background-color: $darkModeColor;
+        color: $darkModeTextColor
+    }
+    .wrapper{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .left{
+            padding-left:10px;
+            @media (min-width: 576px) {
+                padding: 16px 30px;
+            }
+
+            .name{
+                font-size: 24px;
+                font-weight: bold;
+                @media (min-width: 576px) {
+                    font-size: 36px;
+                }
+            }
+
+        }
+        .right{
+            float:left;
+            margin: 0px 50px;
+        }
+    }
+    a{
+        text-decoration: none;
+        color:inherit;
+    }
+}
