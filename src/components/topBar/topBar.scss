@@ -7,15 +7,7 @@
     z-index: 2;
     display: flex;
     align-items: center;
-    @media (prefers-color-scheme: light) {
-        background-color: $lightModeColor;
-        color: $lightModeTextColor
-    }
 
-    @media (prefers-color-scheme: dark) {
-        background-color: $darkModeColor;
-        color: $darkModeTextColor
-    }
     .wrapper{
         width: 100vw;
         display: flex;
@@ -39,6 +31,9 @@
         .right{
             float:left;
             margin: 0px 50px;
+            .icon {
+                color:gray
+            }
         }
     }
     a{

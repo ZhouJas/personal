@@ -2,7 +2,7 @@ import React from "react";
 import "./intro.scss";
 import { GitHub, LinkedIn, Mail, ArrowDownward } from "@material-ui/icons";
 import { IconButton } from "@material-ui/core";
-// import profile from '../../assets/profile.jpg'
+// import profile from "../../assets/profile.jpg";
 
 export default function Intro(): JSX.Element {
   const github = "https://github.com/ZhouJas";
@@ -17,14 +17,14 @@ export default function Intro(): JSX.Element {
         <h1>Hello, I'm Jason.</h1>
       </div>
       {/* <div className="profileImage">
-                <img src={profile} alt="profile" className="image"/>
-            </div> */}
+        <img src={profile} alt="profile" className="image" />
+      </div> */}
       <div className="contacts">
         <div className="iconWrapper">
           <div className="itemContainer">
             <a href={github}>
               <IconButton>
-                <GitHub className="icon" />
+                <GitHub className="icon"/>
               </IconButton>
             </a>
           </div>
@@ -64,7 +64,7 @@ export default function Intro(): JSX.Element {
       </div>
       <div className="promptArrow">
         <a href="#portfolio">
-            <ArrowDownward className="arrow bounce"/>
+          <ArrowDownward className="arrow bounce" />
         </a>
       </div>
     </div>

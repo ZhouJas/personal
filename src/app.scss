@@ -1,10 +1,9 @@
 .app{
     min-height: 100vh;
-
+    transition: all .5s;
     .sections{
         width:100%;
         height: calc(100vh - 70px);
-        background-color: coral;
         position: relative;
         top:70px;
         @media (min-width: 576px) {

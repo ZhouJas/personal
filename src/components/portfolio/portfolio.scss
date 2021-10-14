@@ -2,7 +2,6 @@
 
 .portfolio {
     position: relative;
-    background-color: white;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -33,8 +32,8 @@
             align-items: center;
             justify-content: center;
             margin: 20px;
-            background-color: lightgray;
-            color: black;
+            background-color: #002366;
+            color: rgb(219, 218, 218);
             transition: transform 350ms;
             &:hover {
                 transform: translateY(-10px);
