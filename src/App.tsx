@@ -6,7 +6,7 @@ import { useState } from "react";
 import {ThemeProvider} from "styled-components";
 import { Themes, GlobalStyles } from "./themes";
 function App() {
-  const prefersDark = window.matchMedia("prefers-color-scheme: dark").matches;
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
   const [colorMode, setColorMode] = useState(prefersDark ? "dark" : "light");
 
