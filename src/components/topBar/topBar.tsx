@@ -12,9 +12,9 @@ export default function TopBar() {
                 </div>
             </div>
             <div className='right'>
-                <div className='settings'>
+                {/* <div className='settings'>
                     <Brightness4 fontSize="large"/>
-                </div>
+                </div> */}
             </div>
 
             </div>
