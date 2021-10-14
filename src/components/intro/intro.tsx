@@ -13,18 +13,18 @@ export default function Intro(): JSX.Element {
 
   return (
     <div className="intro" id="intro">
-      <div className="introTitle">
-        <h1>Hello, I'm Jason.</h1>
-      </div>
       {/* <div className="profileImage">
         <img src={profile} alt="profile" className="image" />
       </div> */}
+      <div className="introTitle">
+        <h1>Hello, I'm Jason.</h1>
+      </div>
       <div className="contacts">
         <div className="iconWrapper">
           <div className="itemContainer">
             <a href={github}>
               <IconButton>
-                <GitHub className="icon"/>
+                <GitHub className="icon" />
               </IconButton>
             </a>
           </div>

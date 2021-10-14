@@ -14,8 +14,9 @@
       }
   }
   .profileImage {
-      width:200px;
-      height:200px;
+      max-width:150px;
+      width:20%;
+      height:auto;
       border-radius: 50%;
       overflow-y: hidden;
       .image{
