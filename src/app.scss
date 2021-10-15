@@ -6,12 +6,13 @@
         height: calc(100vh - 70px);
         position: relative;
         top:70px;
+        scroll-snap-type: y proximity;
+        scroll-behavior: smooth;
         @media (min-width: 576px) {
             height: calc(100vh - 80px);
             top:80px;
+            scroll-snap-type: y mandatory;
         }
-        scroll-snap-type: y proximity;
-        scroll-behavior: smooth;
         &::-webkit-scrollbar{
             display: none;
         }
