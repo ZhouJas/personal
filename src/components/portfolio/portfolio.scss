@@ -13,9 +13,10 @@
       }
     .footer{
         justify-content: flex-end;
-        align-self: flex-end;
-        position:absolute;
-        bottom:10px
+        @media (min-width: 320px) and (min-height: 630px) {
+            position:absolute;
+            bottom:10px;
+          }
     }
     h1 {
         margin: 0px 10px;
