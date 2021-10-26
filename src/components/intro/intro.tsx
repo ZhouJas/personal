@@ -45,7 +45,7 @@ export default function Intro(): JSX.Element {
         </div>
       </div>
       <div className="introBody" id="school">
-        I'm a 2nd year of Software Engineering student at the University of
+        I'm a 2nd year Software Engineering student at the University of
         Waterloo.
       </div>
       <div className="introBody" id="prevWork">
