@@ -53,8 +53,7 @@ export default function Intro(): JSX.Element {
         <a href={ideanotion}>Idea Notion Development</a> (Summer 2020, 2019)
       </div>
       <div className="introBody" id="openForWork">
-        Currently seeking Winter (Jan-April) and Fall (Sept-Dec) internship
-        opportunities for 2022
+        Currently seeking Fall (Sept-Dec) internship opportunities for 2022
       </div>
       <div className="introBody" id="motivation">
         I want to explore different technologies and build useful products.
