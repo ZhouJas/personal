@@ -2,10 +2,18 @@ import Intro from "./components/intro/intro";
 import Portfolio from "./components/portfolio/portfolio";
 import TopBar from "./components/topBar/topBar";
 import "./app.scss";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {ThemeProvider} from "styled-components";
 import { Themes, GlobalStyles } from "./themes";
+import ReactGA from 'react-ga';
+import {tracker} from './trackingID';
+
 function App() {
+  useEffect(() => {
+    ReactGA.initialize(tracker);
+    ReactGA.pageview('personal');
+  }, [])
+  
   const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
   const [colorMode, setColorMode] = useState(prefersDark ? "dark" : "light");
