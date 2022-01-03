@@ -9,9 +9,10 @@ import ReactGA from 'react-ga';
 import {tracker} from './trackingID';
 
 function App() {
+  //TODO: replace with GA4 analytics
   useEffect(() => {
     ReactGA.initialize(tracker);
-    ReactGA.pageview('personal');
+    ReactGA.pageview('/personal')
   }, [])
   
   const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
