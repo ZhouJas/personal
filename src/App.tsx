@@ -10,12 +10,11 @@ import {tracker, gaTracker} from './trackingID';
 import GA4React from "ga-4-react";
 
 function App() {
-  //TODO: replace with GA4 analytics
   useEffect(() => {
-    ReactGA.initialize(tracker);
-    const ga4react = new GA4React(gaTracker);
-    ReactGA.pageview('/personal')
-    ga4react.initialize().catch(err => console.log(err))
+    // ReactGA.initialize(tracker);
+    // const ga4react = new GA4React(gaTracker);
+    // ReactGA.pageview('/personal')
+    // ga4react.initialize().catch(err => console.log(err))
   }, [])
   
   const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
