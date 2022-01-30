@@ -5,16 +5,9 @@ import "./app.scss";
 import { useEffect, useState } from "react";
 import {ThemeProvider} from "styled-components";
 import { Themes, GlobalStyles } from "./themes";
-import ReactGA from 'react-ga';
-import {tracker, gaTracker} from './trackingID';
-import GA4React from "ga-4-react";
 
 function App() {
   useEffect(() => {
-    // ReactGA.initialize(tracker);
-    // const ga4react = new GA4React(gaTracker);
-    // ReactGA.pageview('/personal')
-    // ga4react.initialize().catch(err => console.log(err))
   }, [])
   
   const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
