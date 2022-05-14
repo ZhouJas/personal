@@ -46,14 +46,14 @@ export default function Intro(): JSX.Element {
         </div>
       </div>
       <div className="introBody" id="school">
-        I'm a 2nd year Software Engineering student at the University of
+        Currently studying as 2nd year Software Engineering student at the University of
         Waterloo.
       </div>
-      <div className="introBody" id="curWork">
+      {/* <div className="introBody" id="curWork">
         Currently at <a href={tealbook}>TealBook</a>
-      </div>
+      </div> */}
       <div className="introBody" id="prevWork">
-        Previously at <a href={rbc}>Royal Bank of Canada</a> (2021 Summer) and{" "}
+        Previously at <a href={tealbook}>Tealbook</a> (2022 Winter), <a href={rbc}>Royal Bank of Canada</a> (2021 Summer), and{" "}
         <a href={ideanotion}>Idea Notion Development</a> (Summer 2020, 2019)
       </div>
       <div className="introBody" id="openForWork">
