@@ -1,6 +1,6 @@
 .app{
     min-height: 100vh;
-    transition: all .5s;
+    transition: all 500ms ease-in;
     .sections{
         width:100%;
         height: calc(100vh - 70px);
@@ -26,4 +26,5 @@
             scroll-snap-align: start;
         }
     }
+
 }

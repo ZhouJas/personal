@@ -26,7 +26,7 @@ export default function Portfolio() {
           <div className="item">
             <h3>MyLC</h3>
             <p>
-              Angular webapp for tracking progress with offline and online progress storage via Firestore. Hosted with Firebase
+              Angular app for tracking Leetcode progress with offline and online progress storage (Google as Authentication Provider)
             </p>
           </div>
         </a>
