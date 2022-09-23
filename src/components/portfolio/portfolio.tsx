@@ -22,12 +22,11 @@ export default function Portfolio() {
             </p>
           </div>
         </a>
-        <a href="https://github.com/ZhouJas/GM-WebScraper" title="Go to Github">
+        <a href="https://mylc-backend.web.app/" title="Live Demo">
           <div className="item">
-            <h3>GM WebScraper</h3>
+            <h3>MyLC</h3>
             <p>
-              Web scraping tool to quickly obtain GM brands' vehicle data for
-              data entry
+              Angular webapp for tracking progress with offline and online progress storage via Firestore. Hosted with Firebase
             </p>
           </div>
         </a>

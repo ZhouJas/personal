@@ -53,17 +53,15 @@ export default function Intro(): JSX.Element {
         Currently at <a href={tealbook}>TealBook</a>
       </div> */}
       <div className="introBody" id="prevWork">
-        Previously at <a href={tealbook}>Tealbook</a> (2022 Winter), <a href={rbc}>Royal Bank of Canada</a> (2021 Summer), and{" "}
+        Currently at <a href={tealbook}>Tealbook</a>. Previously at <a href={tealbook}>Tealbook</a> (2022 Winter), <a href={rbc}>Royal Bank of Canada</a> (2021 Summer), and{" "}
         <a href={ideanotion}>Idea Notion Development</a> (Summer 2020, 2019)
       </div>
       <div className="introBody" id="openForWork">
-        Seeking Fall (Sept-Dec) internship opportunities for 2022
+        Seeking Summer (May-Aug) internship opportunities for 2023
       </div>
       <div className="introBody" id="motivation">
         I want to explore different technologies and build useful products.
-        Right now I'm continuing to build with key tools for full stack
-        development such as Node, Angular and React, but I'm always looking to
-        learn new tech to add to my toolbox.
+        Right now I'm creating apps with React, Angular, Node, and currently learning Google's suite of development tools such as Google Cloud Storage, and Firebase 
       </div>
       <div className="promptArrow">
         <a href="#portfolio">
