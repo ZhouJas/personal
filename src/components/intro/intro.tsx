@@ -1,8 +1,8 @@
 import React from "react";
 import "./intro.scss";
 import { GitHub, LinkedIn, Mail, ArrowDownward } from "@material-ui/icons";
+import { ReactComponent as Webring } from '../../assets/logo.svg';
 import { IconButton } from "@material-ui/core";
-// import profile from "../../assets/profile.jpg";
 
 export default function Intro(): JSX.Element {
   const github = "https://github.com/ZhouJas";
@@ -11,6 +11,7 @@ export default function Intro(): JSX.Element {
   const rbc = "https://www.rbc.com/our-company/index.html";
   const ideanotion = "https://ideanotion.net/";
   const tealbook = "https://www.tealbook.com/";
+  const webring = "https://se-webring.xyz/"
 
   return (
     <div className="intro" id="intro">
@@ -40,6 +41,13 @@ export default function Intro(): JSX.Element {
             <a href={email}>
               <IconButton>
                 <Mail className="icon" />
+              </IconButton>
+            </a>
+          </div>
+          <div className="itemContainer">
+            <a href={webring}>
+              <IconButton>
+                <Webring className="icon"/>
               </IconButton>
             </a>
           </div>
