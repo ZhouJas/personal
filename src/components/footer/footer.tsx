@@ -5,10 +5,7 @@ export default function Footer() {
     return (
         <div className="footer">
             <div className="description">
-            Notice: This is a work in progress 🔰
-            </div>
-            <div className="description">
-            Made with ☕ and 💚 by Jason Zhou
+            Made with 💚 by Jason Zhou &copy; 2021-2023
             </div>
         </div>
     )
