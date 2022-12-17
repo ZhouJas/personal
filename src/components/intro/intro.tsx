@@ -1,4 +1,3 @@
-import React from "react";
 import "./intro.scss";
 import { GitHub, LinkedIn, Mail, ArrowDownward } from "@material-ui/icons";
 import { ReactComponent as Webring } from '../../assets/logo.svg';
@@ -16,9 +15,6 @@ export default function Intro(): JSX.Element {
 
   return (
     <div className="intro" id="intro">
-      {/* <div className="profileImage">
-        <img src={profile} alt="profile" className="image" />
-      </div> */}
       <div className="introTitle">
         <h1>Hello, I'm Jason.</h1>
       </div>

@@ -30,6 +30,7 @@
     }
     .portItems{
         display: flex;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         width:70%;
@@ -38,42 +39,6 @@
             text-decoration: none;
             color: inherit;
         }
-
-        .item{
-            width:180px;
-            height:100px;
-            margin: 5px;
-            @media (min-width:750px) {
-                width:220px;
-                height:150px;
-                margin: 20px;
-              }
-            border-radius: 20px;
-            border:1px solid black;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-            background-color: #3e72d3;
-            color: rgb(219, 218, 218);
-            transition: transform 350ms;
-            &:hover {
-                transform: translateY(-10px);
-                cursor:pointer;
-                p {
-                    display: flex;
-                    text-align: center;
-                    margin: 5px 0;
-                }
-                h3 {
-                    display: none;
-                }
-            }
-            p {
-                display: none;
-            }
-        }
-
     }
 
 }

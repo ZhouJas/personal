@@ -67,7 +67,7 @@ function App() {
   }, []);
 
   return (
-    <div className="app">
+    <div className="app hideScrollBar">
       <ThemeProvider
         theme={colorMode === "dark" ? Themes.darkTheme : Themes.lightTheme}
       >
@@ -88,9 +88,9 @@ function App() {
           <animated.div style={headerSpring}>
             <TopBar theme={colorMode} themeToggler={themeToggler} />
           </animated.div>
-            <animated.div style={bodySpring} className="sections">
-              <Intro />
-              <Portfolio />
+            <animated.div style={bodySpring} className="sections hideScrollBar">
+              <Intro/>
+              <Portfolio/>
             </animated.div>
           </>
         )}
