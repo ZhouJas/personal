@@ -17,8 +17,7 @@ export default function Portfolio() {
           <div className="item">
             <h3>CryptoPi</h3>
             <p>
-              Physical Ethereum wallet using Raspberry Pi, Node, MongoDB and
-              Flutter
+              Physical Ethereum wallet using Raspberry Pi, Node, MongoDB and Flutter
             </p>
           </div>
         </a>
@@ -26,7 +25,7 @@ export default function Portfolio() {
           <div className="item">
             <h3>MyLC</h3>
             <p>
-              Angular app for tracking Leetcode progress with offline and online progress storage (Google as Authentication Provider)
+              Angular app for tracking Leetcode progress with offline and online progress storage
             </p>
           </div>
         </a>
@@ -34,8 +33,7 @@ export default function Portfolio() {
           <div className="item">
             <h3>GitVoice</h3>
             <p>
-              VSCode extension to perform git commands remotely using voice
-              prompts
+              VSCode extension to perform git commands remotely using voice prompts
             </p>
           </div>
         </a>

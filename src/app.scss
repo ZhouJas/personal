@@ -1,30 +1,39 @@
-.app{
-    min-height: 100vh;
-    transition: all 500ms ease-in;
-    .sections{
-        width:100%;
-        height: calc(100vh - 70px);
-        position: relative;
-        top:70px;
-        scroll-snap-type: y proximity;
-        scroll-behavior: smooth;
-        @media (min-width: 576px) {
-            height: calc(100vh - 80px);
-            top:80px;
-            scroll-snap-type: y mandatory;
-        }
-        &::-webkit-scrollbar{
-            display: none;
-        }
-        scrollbar-width: 0;
-        > *{
-            width: 100vw;
-            min-height: calc(100vh - 70px);
-            @media (min-width: 576px) {
-                min-height: calc(100vh - 80px);
-            }
-            scroll-snap-align: start;
-        }
+.app {
+  height: 100vh;
+  transition: all 500ms ease-in;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  scrollbar-width: 0;
+  .sections {
+    width: 100%;
+    height: calc(100vh - 70px);
+    position: relative;
+    scroll-snap-type: y proximity;
+    scroll-behavior: smooth;
+    @media (min-width: 576px) {
+      height: calc(100vh - 80px);
+      scroll-snap-type: y mandatory;
+    }  &::-webkit-scrollbar {
+        display: none;
+      }
+      scrollbar-width: 0;
+    > * {
+      width: 100vw;
+      min-height: calc(100vh - 70px);
+      @media (min-width: 576px) {
+        min-height: calc(100vh - 80px);
+      }
+      scroll-snap-align: start;
     }
-
+  }
+  .loaderWrapper {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    .loader {
+      overflow: visible;
+    }
+  }
 }

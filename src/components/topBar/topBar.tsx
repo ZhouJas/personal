@@ -1,4 +1,3 @@
-import React from 'react'
 import './topBar.scss'
 import {Brightness4, Brightness7} from '@material-ui/icons';
 import { IconButton } from '@material-ui/core';
