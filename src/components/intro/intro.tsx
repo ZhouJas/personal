@@ -1,15 +1,16 @@
-import "./intro.scss";
-import { GitHub, LinkedIn, Mail, ArrowDownward } from "@material-ui/icons";
-import { ReactComponent as Webring } from '../../assets/logo.svg';
-import { IconButton } from "@material-ui/core";
+import "./intro.scss"
+import { GitHub, LinkedIn, Mail, ArrowDownward } from "@material-ui/icons"
+import { ReactComponent as Webring } from '../../assets/logo.svg'
+import { IconButton } from "@material-ui/core"
 
 export default function Intro(): JSX.Element {
-  const github = "https://github.com/ZhouJas";
-  const email = "mailto:jason.zhou@uwaterloo.ca";
-  const linkedin = "https://www.linkedin.com/in/zhoujas/";
-  const rbc = "https://www.rbc.com/our-company/index.html";
-  const ideanotion = "https://ideanotion.net/";
-  const tealbook = "https://www.tealbook.com/";
+  const github = "https://github.com/ZhouJas"
+  const email = "mailto:jason.zhou@uwaterloo.ca"
+  const linkedin = "https://www.linkedin.com/in/zhoujas/"
+  const rbc = "https://www.rbc.com/our-company/index.html"
+  const ideanotion = "https://ideanotion.net/"
+  const tealbook = "https://www.tealbook.com/"
+  const oncall = "https://oncallhealth.com/"
   const webring = "https://se-webring.xyz/"
   const resumeLink = "https://drive.google.com/file/d/1KjAcN6kDE4msQ2DoBJ17RhZ9atfrORLH/view?usp=sharing"
 
@@ -55,7 +56,7 @@ export default function Intro(): JSX.Element {
         Waterloo
       </div>
       <div className="introBody" id="prevWork">
-        Currently at <a href={tealbook}>Tealbook</a>. Previously at <a href={rbc}>Royal Bank of Canada</a>, and{" "}
+        Currently at <a href={oncall}>Oncall Health</a>. Previously at <a href={rbc}>Royal Bank of Canada</a>, <a href={tealbook}>Tealbook</a>, and{" "}
         <a href={ideanotion}>Idea Notion Development</a>. Seeking summer internship opportunities for 2023
       </div>
       <div className="introBody" id="motivation">
