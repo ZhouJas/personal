@@ -12,7 +12,7 @@ export default function Intro(): JSX.Element {
   const tealbook = "https://www.tealbook.com/"
   const oncall = "https://oncallhealth.com/"
   const webring = "https://se-webring.xyz/"
-  const resumeLink = "https://drive.google.com/file/d/1KjAcN6kDE4msQ2DoBJ17RhZ9atfrORLH/view?usp=sharing"
+  const resumeLink = "https://drive.google.com/file/d/14-t4uylU0JtXa082f7C1nHgP4UpsOffX/view?usp=sharing"
 
   return (
     <div className="intro" id="intro">
@@ -56,15 +56,14 @@ export default function Intro(): JSX.Element {
         Waterloo
       </div>
       <div className="introBody" id="prevWork">
-        Currently at <a href={oncall}>Oncall Health</a>. Previously at <a href={rbc}>Royal Bank of Canada</a>, <a href={tealbook}>Tealbook</a>, and{" "}
-        <a href={ideanotion}>Idea Notion Development</a>. Seeking summer internship opportunities for 2023
+        Contributed to <a href={oncall}>Oncall Health</a>. <a href={rbc}>Royal Bank of Canada</a>, <a href={tealbook}>Tealbook</a>, and{" "}
+        <a href={ideanotion}>Idea Notion Development</a>. Seeking winter/summer/fall internship opportunities for 2024
       </div>
       <div className="introBody" id="motivation">
-        I want to explore different technologies and build useful products.
-        Right now I'm creating apps with React, Angular, Node, and currently learning Google's suite of development tools such as Google Cloud Storage, and Firebase 
+        Full stack, and looking into infrastructure and open to learning new roles.
       </div>
       <div className="introBody" id="techStack">
-        I have work experience with React, Angular, Node, GCP and others. But I am always open to learning new technologies and trying out new fields! For more details, check out my resume <a href={resumeLink}>here</a>
+        Check out my resume <a href={resumeLink}>here</a>. If there's anything you want to chat about, shoot me an email!
       </div>
       <div className="promptArrow">
         <a href="#portfolio">
