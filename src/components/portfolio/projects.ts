@@ -18,10 +18,10 @@ const projects: Project[]=  [{
     description: "Physical Ethereum wallet using Raspberry Pi, Node, MongoDB and Flutter" 
   },
   {
-    link: "https://devpost.com/software/campusafe",
-    title: "Campusafe",
-    linkTitle: "Go to DevPost",
-    description: "React Native app made to provide mental health support"
+    link: "https://github.com/ZhouJas/mesos",
+    title: "Apache Mesos",
+    linkTitle: "Go to Github",
+    description: "Implementing Cgroups V2 support in Apache Mesos"
   },
   {
     link: "https://github.com/teppah/gitvoice",

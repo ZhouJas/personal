@@ -11,6 +11,8 @@ export default function Intro(): JSX.Element {
   const ideanotion = "https://ideanotion.net/"
   const tealbook = "https://www.tealbook.com/"
   const oncall = "https://oncallhealth.com/"
+  const autodesk = "https://www.autodesk.com/"
+  const twitter = "https://twitter.com/home"
   const webring = "https://se-webring.xyz/"
   const resumeLink = "https://drive.google.com/file/d/14-t4uylU0JtXa082f7C1nHgP4UpsOffX/view?usp=sharing"
 
@@ -52,18 +54,19 @@ export default function Intro(): JSX.Element {
         </div>
       </div>
       <div className="introBody" id="school">
-        Currently studying as 3rd year Software Engineering student at the University of
-        Waterloo
+        Software Engineering student at the University of Waterloo, graduating 2025
       </div>
       <div className="introBody" id="prevWork">
-        Contributed to <a href={oncall}>Oncall Health</a>. <a href={rbc}>Royal Bank of Canada</a>, <a href={tealbook}>Tealbook</a>, and{" "}
-        <a href={ideanotion}>Idea Notion Development</a>. Seeking winter/summer/fall internship opportunities for 2024
-      </div>
+        Currently Compute@<a href={twitter} target="_blank" rel="noreferrer">X</a> (Formerly <a href={twitter} target="_blank" rel="noreferrer">Twitter</a>), 
+        previously at <a href={autodesk} target="_blank" rel="noreferrer">Autodesk</a>, <a href={oncall} target="_blank" rel="noreferrer">Oncall Health</a>,{" "}
+        <a href={rbc} target="_blank" rel="noreferrer">Royal Bank of Canada</a>, <a href={tealbook} target="_blank" rel="noreferrer">Tealbook</a>, and{" "}
+        <a href={ideanotion} target="_blank" rel="noreferrer">Idea Notion Development</a>. Seeking New Grad.
+        </div>
       <div className="introBody" id="motivation">
-        Full stack, and looking into infrastructure and open to learning new roles.
+        Full stack & Compute infrastructure, also open to learning new roles.
       </div>
       <div className="introBody" id="techStack">
-        Check out my resume <a href={resumeLink}>here</a>. If there's anything you want to chat about, shoot me an email!
+        Check out my resume <a href={resumeLink}>here</a>. If there's anything you want to chat about, please reach out!
       </div>
       <div className="promptArrow">
         <a href="#portfolio">
