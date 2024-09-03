@@ -8,13 +8,12 @@ export default function Intro(): JSX.Element {
   const email = "mailto:jason.zhou@uwaterloo.ca"
   const linkedin = "https://www.linkedin.com/in/zhoujas/"
   const rbc = "https://www.rbc.com/our-company/index.html"
-  const ideanotion = "https://ideanotion.net/"
   const tealbook = "https://www.tealbook.com/"
-  const oncall = "https://oncallhealth.com/"
+  const qualifacts = "https://qualifacts.com/"
   const autodesk = "https://www.autodesk.com/"
   const twitter = "https://twitter.com/home"
   const webring = "https://se-webring.xyz/"
-  const resumeLink = "https://drive.google.com/file/d/14-t4uylU0JtXa082f7C1nHgP4UpsOffX/view?usp=sharing"
+  const resumeLink = "https://drive.google.com/file/d/1aponlOGaaDC7GReWRrkDuAuxyz6y0rsm/view?usp=sharing"
 
   return (
     <div className="intro" id="intro">
@@ -54,14 +53,13 @@ export default function Intro(): JSX.Element {
         </div>
       </div>
       <div className="introBody" id="school">
-        Software Engineering student at the University of Waterloo, graduating 2025
+        Seeking Newgrad. Software Engineering student at the University of Waterloo, class of 2025.
       </div>
       <div className="introBody" id="prevWork">
-        Currently Compute@<a href={twitter} target="_blank" rel="noreferrer">X</a> (Formerly <a href={twitter} target="_blank" rel="noreferrer">Twitter</a>), 
-        previously at <a href={autodesk} target="_blank" rel="noreferrer">Autodesk</a>, <a href={oncall} target="_blank" rel="noreferrer">Oncall Health</a>,{" "}
-        <a href={rbc} target="_blank" rel="noreferrer">Royal Bank of Canada</a>, <a href={tealbook} target="_blank" rel="noreferrer">Tealbook</a>, and{" "}
-        <a href={ideanotion} target="_blank" rel="noreferrer">Idea Notion Development</a>. Seeking New Grad.
-        </div>
+        Wrote code at <a href={twitter} target="_blank" rel="noreferrer">X</a> (Formerly <a href={twitter} target="_blank" rel="noreferrer">Twitter</a>),{" "}
+        <a href={autodesk} target="_blank" rel="noreferrer">Autodesk</a>, <a href={rbc} target="_blank" rel="noreferrer">Royal Bank of Canada</a>,{" "}
+        <a href={qualifacts} target="_blank" rel="noreferrer">Qualifacts</a>, <a href={tealbook} target="_blank" rel="noreferrer">Tealbook</a>
+      </div>
       <div className="introBody" id="motivation">
         Full stack & Compute infrastructure, also open to learning new roles.
       </div>
