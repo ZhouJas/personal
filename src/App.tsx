@@ -30,7 +30,7 @@ function App() {
     to: {
       opacity: 0,
     },
-    delay: 2000,
+    delay: 500,
     onResolve: () => setLoading(false),
     ref: loaderSpringRef
   });
@@ -59,12 +59,12 @@ function App() {
     ref: bodySpringRef
   });
 
-  useChain([loaderSpringRef, headerSpringRef, bodySpringRef], [0, 0.9, 0.9], 3000)
+  useChain([loaderSpringRef, headerSpringRef, bodySpringRef], [0, 0.5, 0.5], 1500)
 
 
-  useEffect(() => {
-    setLoading(true);
-  }, []);
+  // useEffect(() => {
+  //   setLoading(true);
+  // }, []);
 
   return (
     <div className="app hideScrollBar">
@@ -90,7 +90,7 @@ function App() {
           </animated.div>
             <animated.div style={bodySpring} className="sections hideScrollBar">
               <Intro/>
-              <Portfolio/>
+              {/* <Portfolio/> */}
             </animated.div>
           </>
         )}

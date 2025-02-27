@@ -25,7 +25,8 @@
       }
   }
   .introBody {
-    align-self: flex-start;
+    align-self: center;
+    text-align: center;
     font-size: 14px;
     margin: 5px 20px;
     @media (min-width:330px) {
@@ -98,5 +99,12 @@
         color: gray;
       }
   }
+  .footer{
+    justify-content: flex-end;
+    @media (min-width: 320px) and (min-height: 630px) {
+        position:absolute;
+        bottom:10px;
+      }
+}
 
 }

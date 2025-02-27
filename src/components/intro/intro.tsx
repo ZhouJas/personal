@@ -2,6 +2,7 @@ import "./intro.scss"
 import { GitHub, LinkedIn, Mail, ArrowDownward } from "@material-ui/icons"
 import { ReactComponent as Webring } from '../../assets/logo.svg'
 import { IconButton } from "@material-ui/core"
+import Footer from "../footer/footer"
 
 export default function Intro(): JSX.Element {
   const github = "https://github.com/ZhouJas"
@@ -53,7 +54,7 @@ export default function Intro(): JSX.Element {
         </div>
       </div>
       <div className="introBody" id="school">
-        Seeking Newgrad. Software Engineering student at the University of Waterloo, class of 2025.
+        2025 Software Engineering at the University of Waterloo
       </div>
       <div className="introBody" id="prevWork">
         Wrote code at <a href={twitter} target="_blank" rel="noreferrer">X</a> (Formerly <a href={twitter} target="_blank" rel="noreferrer">Twitter</a>),{" "}
@@ -61,15 +62,18 @@ export default function Intro(): JSX.Element {
         <a href={qualifacts} target="_blank" rel="noreferrer">Qualifacts</a>, <a href={tealbook} target="_blank" rel="noreferrer">Tealbook</a>
       </div>
       <div className="introBody" id="motivation">
-        Full stack & Compute infrastructure, also open to learning new roles.
+        Full stack & Compute infrastructure, always open to learning new things
       </div>
       <div className="introBody" id="techStack">
         Check out my resume <a href={resumeLink}>here</a>. If there's anything you want to chat about, please reach out!
       </div>
-      <div className="promptArrow">
+      {/* <div className="promptArrow">
         <a href="#portfolio">
           <ArrowDownward className="arrow bounce" />
         </a>
+      </div> */}
+      <div className="footer">
+        <Footer />
       </div>
     </div>
   );
