@@ -1,8 +1,7 @@
 import Intro from "./components/intro/intro";
-import Portfolio from "./components/portfolio/portfolio";
 import TopBar from "./components/topBar/topBar";
 import "./app.scss";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { ThemeProvider } from "styled-components";
 import { Themes, GlobalStyles } from "./themes";
 import { PuffLoader } from "react-spinners";
@@ -60,11 +59,6 @@ function App() {
   });
 
   useChain([loaderSpringRef, headerSpringRef, bodySpringRef], [0, 0.5, 0.5], 1500)
-
-
-  // useEffect(() => {
-  //   setLoading(true);
-  // }, []);
 
   return (
     <div className="app hideScrollBar">

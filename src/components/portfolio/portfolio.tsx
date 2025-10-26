@@ -1,4 +1,3 @@
-import React from "react";
 import Footer from "../footer/footer";
 import "./portfolio.scss";
 import Item from "./item/item";
