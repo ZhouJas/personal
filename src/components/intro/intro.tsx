@@ -1,5 +1,5 @@
 import "./intro.scss"
-import { GitHub, LinkedIn, Mail, ArrowDownward } from "@material-ui/icons"
+import { GitHub, LinkedIn, Mail } from "@material-ui/icons"
 import { ReactComponent as Webring } from '../../assets/logo.svg'
 import { IconButton } from "@material-ui/core"
 import Footer from "../footer/footer"
@@ -13,6 +13,7 @@ export default function Intro(): JSX.Element {
   const qualifacts = "https://qualifacts.com/"
   const autodesk = "https://www.autodesk.com/"
   const twitter = "https://twitter.com/home"
+  const bloomberg  = "https://www.bloomberg.com/company/"
   const webring = "https://se-webring.xyz/"
   const resumeLink = "https://drive.google.com/file/d/1aponlOGaaDC7GReWRrkDuAuxyz6y0rsm/view?usp=sharing"
 
@@ -54,7 +55,7 @@ export default function Intro(): JSX.Element {
         </div>
       </div>
       <div className="introBody" id="school">
-        2025 Software Engineering at the University of Waterloo
+        Software Engineer <a href={bloomberg}> @Bloomberg</a>. 2025 Software Engineering, University of Waterloo
       </div>
       <div className="introBody" id="prevWork">
         Wrote code at <a href={twitter} target="_blank" rel="noreferrer">X</a> (Formerly <a href={twitter} target="_blank" rel="noreferrer">Twitter</a>),{" "}
